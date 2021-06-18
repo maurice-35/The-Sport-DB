@@ -1,0 +1,40 @@
+// import React, { useState, useEffect } from 'react'
+// import axios from 'axios'
+// // import CatCard from './CatCard'
+
+// const Favourite = () => {
+//   const [cats, setCats] = useState(null)
+//   const [hasError, setHasError] = useState(false)
+
+//   useEffect(() => {
+//     const getData = async () => {
+//       try {
+//         const { data } = await axios.get('https://api.thecatapi.com/v1/breeds')
+//         setCats(data)
+//       } catch (err) {
+//         setHasError(true)
+//       }
+//     }
+//     getData()
+//   }, [])
+
+//   return (
+//     <section className="section">
+//       <div className="container">
+//         {cats ?
+//           <div className="columns is-multiline">
+//             {cats.map(cat => (
+//               <Favourite key={cat._id} {...cat} />
+//             ))}
+//           </div>
+//           :
+//           <h2 className="title has-text-centered">
+//             {hasError ? 'Something went wrong 😞' : '...loading 🐈'}
+//           </h2>
+//         }
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Favourite

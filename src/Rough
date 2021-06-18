@@ -1,0 +1,168 @@
+import React from 'react'
+
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import { useParams } from 'react-router-dom'
+
+
+const CatModels = () => {
+  const [cat, setCat] = useState([])
+  // const [hasErrors, setHasError] useState([])
+  const { image } = useParams()
+
+  useEffect(() => {
+    const getData = async () => {
+      // try {
+      const { data } = await axios.get('https://api.thecatapi.com/v1/breeds/')
+      console.log(data)
+      // } catch (err) {
+      setCat(data)
+      //  setHasError(true)
+      // }
+    }
+
+    getData()
+  }, [])
+
+  console.log('cat', cat)
+
+const App = () => {
+  return (
+    <h1>Hello world</h1>
+  )
+
+
+
+
+
+response.placePhotos.match(regexp).map(url => (
+  <CardMedia
+    key={placeDescription.placeName}
+    component="img"
+    alt={placeDescription.placeName}
+    height="140"
+    image={url}
+    title={placeDescription.placeName}
+  />
+));
+
+
+      ...
+    <figure className="image image-is-1by1"></figure>
+
+    placeDescription.placePhotos.split(',').map((url, index) =>
+      <CardMedia
+        key={index}
+
+        image={url}
+      />
+      ...
+    </div>
+    <section className="section">
+    placeDescription && placeDescription.placePhotos && placeDescription.placePhotos.split(',').map((url, index) =>
+      <CardMedia
+        component="img"
+        alt={placeDescription.placeName}
+        height="250"
+        image={url}
+        title={placeDescription.placeName}
+      />
+      </section>
+    )
+
+
+
+
+
+    <BrowserRouter>
+      <NAV />
+      <Switch>
+        {/* <Route exact path='/' component={Home} /> */}
+        {/* <Route path="/cheeses/:id/edit" component={CheeseEdit}/> */}
+        {/* <Route path='/cheeses/new' component={CheeseNew} /> */}
+        <Route path='/cats/:id' component={CatModel} />
+        {/* <Route path='/cats' component={Favourite} /> */}
+        {/* <Route path='/register' component={Register} /> */}
+        {/* <Route path='/login' component={Login} /> */}
+      </Switch>
+    </BrowserRouter>
+  )
+}
+
+export default App
+
+
+
+
+import React, { useState, useEffect } from 'react'
+import { Link, useLocation, useHistory } from 'react-router-dom'
+// import { getPayload } from '../../helpers/auth'
+
+const NAV = () => {
+  const [isOpen, setIsOpen] = useState(false)
+  const { pathname } = useLocation()
+  const history = useHistory()
+
+  const handleMenuToggle = () => {
+    setIsOpen(!isOpen)
+  }
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [pathname])
+
+  const handleLogout = () => {
+    window.localStorage.removeItem('token')
+    history.push('/')
+  }
+
+  // const userIsAuthenticated = () => {
+  //   const payload = getPayload()
+  //   if (!payload) return false
+  //   const now = Math.round(Date.now() / 1000)
+  //   return now < payload.exp
+  // }
+
+  return (
+    <nav className="navbar is-dark">
+      <div className="container">
+        <div className="navbar-brand">
+          <Link to="/" className="navbar-item">
+            <span role="img" aria-label="logo" className="title">🐈</span>
+          </Link>
+          <span onClick={handleMenuToggle} className={`navbar-breed ${isOpen ? 'is-active' : ''}`}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
+          <div className="navbar-start">
+            <Link to="/cheeses" className="navbar-item">See all our Cats</Link>
+            {/* {userIsAuthenticated() && <Link to="/cats/new" className="navbar-item">Make a new Cat</Link>} */}
+          </div>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="buttons">
+                {/* {!userIsAuthenticated() ? */}
+                <>
+                  <Link className="button is-dark" to="/SignUp">
+                    SignUp
+                  </Link>
+                  <Link className="button is-dark" to="/login">
+                    Log in
+                  </Link>
+                </>
+                  :
+                <button className="button is-dark" onClick={handleLogout}>Log Out</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}
+
+export default NAV
