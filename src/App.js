@@ -1,33 +1,30 @@
 
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Home from './components/Home'
+import Home from './components/common/Home'
 // import NAV from './components/General/NAV'
-import NavBar from './components/NavBar'
-import CatModel from './components/cats/CatModel'
+import NavBar from './components/common/NavBar'
+import CatBreed from './components/cats/CatBreed'
 import CatImage from './components/cats/CatImage'
-// import Favourite from './components/Favourite'
+import CatCategories from './components/reference/CatCategories'
+import CatFavourites from './components/CatFavourites'
 
 
 
 const App = () => {
 
   return (
-    <BrowserRouter>
+    < BrowserRouter >
       <NavBar />
       <Switch>
-        <Route path="/cats">
-          <CatModel />
-        </Route>
-        <Home />
-        <Route path="/">
-        </Route>
-        <Route path="/breed">
-          <CatImage />
-        </Route>
+        <Route path="/Breeds" component={CatBreed} /> 
+        <Route path="/Breeds" component={CatBreed} /> 
+        <Route path="/Categories" component={CatCategories} /> 
+        <Route path="/Favourites" component={CatFavourites} /> 
+        <Route path="/Images" component={CatImage} /> 
+        <Route path="/" component={Home} />
       </Switch>
-    </BrowserRouter>
-
+    </BrowserRouter >
   )
 }
 

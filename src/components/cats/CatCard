@@ -1,8 +1,8 @@
 // import React, { useState, useEffect } from 'react'
 // import axios from 'axios'
-// // import CatCard from './CatCard'
+// import CatCard from './CatCard'
 
-// const Favourite = () => {
+// const CatCard = () => {
 //   const [cats, setCats] = useState(null)
 //   const [hasError, setHasError] = useState(false)
 
@@ -24,12 +24,12 @@
 //         {cats ?
 //           <div className="columns is-multiline">
 //             {cats.map(cat => (
-//               <Favourite key={cat._id} {...cat} />
+//               <CatCard key={cat._id} {...cat} />
 //             ))}
 //           </div>
 //           :
 //           <h2 className="title has-text-centered">
-//             {hasError ? 'Something went wrong 😞' : '...loading 🐈'}
+//             {hasError ? 'Something went wrong 😞' : '...loading 🧀 '}
 //           </h2>
 //         }
 //       </div>
@@ -37,4 +37,5 @@
 //   )
 // }
 
-// export default Favourite
+
+// export default CatCard

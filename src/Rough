@@ -166,3 +166,15 @@ const NAV = () => {
 }
 
 export default NAV
+
+ {/* <img src={breed.image.url} alt={breed.name} /> */}
+                      {/* <img src={'https://api.thecatapi.com/v1/images/search'}/> */}
+                      {/* <img src=" {{ breed('/upload/imgcats') . '/' . $row->catpic }}" alt="breed.name" className="image"></img> */}
+                      {/* <img src="{{ breed('images/imgdogs') . '/' . $row->dogpic }}" alt="breed.name" className="image"></img> */}
+                      {/* <img src="{{ breed('https://api.thecatapi.com/v1/images/upload') . '/' . $row->yourimg }}" alt="breed.name" className="image"></img> */}
+                      {/* <img src={{ url: 'https://api.thecatapi.com/v1/images/upload' }} /> */}
+                      {/* const image = require (`./images/picture.jpg`) */}
+                      {/* <img src="https://api.thecatapi.com/v1/favourites"
+
+                      style={{ width: 500, height: 500 }} />  */}
+

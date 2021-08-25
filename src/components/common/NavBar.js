@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import Home from './components/Home' 
+// import Home from './components/Home'
+
 
 const NavBar = () => {
 
@@ -19,10 +20,19 @@ const NavBar = () => {
         </div>
         <div className="navbar-end">
           <div className="navbar-item">
-            SignUp
+            <Link target="-blank" to="/breeds">Breeds</Link>
           </div>
           <div className="navbar-item">
-            Login
+            <Link target="-blank" to="/categories">Categories</Link>
+          </div>
+          <div className="navbar-item">
+            <Link target="-blank" to="/votes">Votes</Link>
+          </div>
+          <div className="navbar-item">
+            <Link target="-blank" to="/favourites">Favourites</Link>
+          </div>
+          <div className="navbar-item">
+            <Link target="-blank" to="/images">Images</Link>
           </div>
         </div>
       </div>

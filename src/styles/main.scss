@@ -3,9 +3,6 @@
   display: flex;
   flex-direction: column;
 }
-.card-content {
-  margin-top: auto;
-}
 
 .logo-emoji {
   margin: 0 10px;
@@ -33,6 +30,7 @@ div.loading {
   display: flex;
   justify-content: center;
 }
+
 
 $blue: hsl(194, 24%, 31%);
 $footer-background-color: #363636;
