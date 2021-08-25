@@ -15,7 +15,7 @@ const NavBar = () => {
         </div>
         <div className="navebar-start">
           <div className="navbar-item">
-            <Link target="-blank" to="/cats">See all Cats</Link>
+            <Link target="-blank" to="/breeds">See all Cats</Link>
           </div>
         </div>
         <div className="navbar-end">
