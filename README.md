@@ -8,7 +8,7 @@ Click 👉🏽 🐈
 - [Brief](#brief)
 - [Technologies](#technologies)
 - [Framework](#framework)
-- [Dependencies and Components](#dependencies-and-components)
+- [Dependencies & Components](#dependencies-and-components)
 - [Approach](#approach)
 - [Wins](#wins)
 - [Challenges](#challenges)
@@ -63,7 +63,7 @@ Your app must:
  - React
  - Node.js
 
- #  Dependencies and Components
+ #  Dependencies & Components
  - Axios
  - Yarn
  - GitHub
