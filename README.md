@@ -54,7 +54,7 @@ Your app must:
 
 #  Technologies
 
- JavaScript
+ - [JavaScript][#https://www.javascript.com/]
  - Sass 
  - Bulma
 
