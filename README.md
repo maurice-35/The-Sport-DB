@@ -76,9 +76,11 @@ I started by thinking of the kind of app to build. I had little or no idea of wh
 
 ## Day 2:
 
-#  Wireframe
+### Wireframe
 
 On the second, I started with the wireframe.
 I made a short plan using Figma.com as shown below.
 
+
+![project 2](https://user-images.githubusercontent.com/84001897/131218622-f590b6c8-a36c-4c9c-805c-d17a9e16161b.png)
 
