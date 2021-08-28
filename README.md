@@ -14,8 +14,8 @@ Click 👉🏽 🐈
 - [Challenges](#challenges)
 - [Future Features](#future-features)
 - [Key Learnings](#key-learnings)
-- [Contribution to this Project](#contribution-to-the-project)
-- [License & Copyright](#license and copyright)
+- [Contribution to this Project](#contribution-to-this-project)
+- [License & Copyright](#license-and-copyright)
 
 #  Overview
 This was the first project I built using React and APIs, after studying both during the previous week. It was quite a challenging project as I did not feel confident in the understanding of either of the two, but I finally became confident in the end.
