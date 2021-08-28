@@ -5,12 +5,12 @@ Click 👉🏽 🐈
 # Table of Contents
 
 - [Overview](#overview)
-- [Brief](#bref)
+- [Brief](#brief)
 - [Technologies](#technologies)
 - [Framework](#framework)
 - [Dependencies & Components](#dependencies and components)
-- Approach
-- Wins
+- [Approach](#approach)
+- [Wins](#wins)
 - Challenges
 - Future features
 - Key Learnings/Takeaway
