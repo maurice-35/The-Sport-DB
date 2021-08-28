@@ -74,3 +74,11 @@ I started by thinking of the kind of app to build. I had little or no idea of wh
 
 ![insomnia-project2](https://user-images.githubusercontent.com/84001897/131217982-a35452a1-287d-458f-9ff7-4a97c5ecb049.png)
 
+## Day 2:
+
+  # Wireframe
+
+I made a short plan using ‘Figma’ as shown below.
+
+Home page
+
