@@ -25,7 +25,7 @@ As a solo project, I had 8 days to develop an app using React and fetch data fro
 
 The second project is to **build a React application** that consumes a **public API**.
 ​
-#### Technical Requirements
+### Technical Requirements
 ​
 Your app must:
 ​
@@ -37,7 +37,7 @@ Your app must:
 ​
 ---
 ​
-#### Necessary Deliverables
+### Necessary Deliverables
 ​
 * A **working application**, hosted somewhere on the internet
 * A **link to your hosted working app** in the URL section of your Github repo
