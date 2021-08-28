@@ -7,6 +7,7 @@ Click 👉🏽 🐈
 - [Overview](#overview)
 - [Brief](#bref)
 - Technologies
+- Framework
 - Dependencies & Components
 - Approach
 - Wins
