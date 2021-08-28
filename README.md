@@ -8,14 +8,14 @@ Click 👉🏽 🐈
 - [Brief](#brief)
 - [Technologies](#technologies)
 - [Framework](#framework)
-- [Dependencies & Components](#dependencies-and-components)
+- [Dependencies and Components](#dependencies-and-components)
 - [Approach](#approach)
 - [Wins](#wins)
 - [Challenges](#challenges)
 - [Future Features](#future-features)
-- Key Learnings/Takeaway
-- Contribution to this Project
-- License & Copyright
+- [Key Learnings](#key-learningg)
+- [Contribution to this Project](#contribution-to-the=project)
+- [License & Copyright](#)
 
 #  Overview
 This was the first project I built using React and APIs, after studying both during the previous week. It was quite a challenging project as I did not feel confident in the understanding of either of the two, but I finally became confident in the end.
@@ -63,7 +63,7 @@ Your app must:
  - React
  - Node.js
 
- #  Dependencies & Components
+ #  Dependencies and Components
  - Axios
  - Yarn
  - GitHub
