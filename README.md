@@ -107,3 +107,38 @@ I created the `home page`.
       }, [])
 
 In the `navBar page`, I created links to the `sign up and login pages`, as well as the `see all cats` page. 
+
+
+     return (
+        <nav className="navbar is-dark">
+          <div className="container">
+            <div className="navbar-brand">
+              <span role="img">
+                <Link to="/">🐈</Link>
+              </span>
+            </div>
+            <div className="navebar-start">
+              <div className="navbar-item">
+                <Link target="-blank" to="/breeds">See all Cats</Link>
+              </div>
+            </div>
+            <div className="navbar-end">
+              <div className="navbar-item">
+                <Link target="-blank" to="/breeds">Breeds</Link>
+              </div>
+              <div className="navbar-item">
+                <Link target="-blank" to="/categories">Categories</Link>
+              </div>
+              <div className="navbar-item">
+                <Link target="-blank" to="/votes">Votes</Link>
+              </div>
+              <div className="navbar-item">
+                <Link target="-blank" to="/favourites">Favourites</Link>
+              </div>
+              <div className="navbar-item">
+                <Link target="-blank" to="/images">Images</Link>
+              </div>
+            </div>
+          </div>
+        </nav>
+      )
