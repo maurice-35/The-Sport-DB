@@ -152,3 +152,10 @@ In the `navBar page`, I created links to the `sign up and login pages`, as well 
 #  Challenges
 The main challenge was to display the images on the browser. As a result of the nature of the API, it was not easy to display images but I finally succeeded to do so after some extra research. 
 
+
+#  Future Features
+
+This final output does not cover all  intentions and plans for the project. As a result, I intend to make some improvements on this project particularly on:
+Improving the card, categories, votes, and favourite pages.
+Adding the sign up and login pages.
+
