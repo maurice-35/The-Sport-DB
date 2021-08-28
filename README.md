@@ -92,16 +92,15 @@ For the rest of the other days, I continued the process. I started by setting up
 I created the `navBar page` and the cats folder. I moved the content of `App.js` to the `CatModel` file and replaced it by creating route paths for each route. 
 I created the `home page`.
 
-Using react, I ensured that the data was responding and routes working correctly.
-
- useEffect(() => {
+useEffect(() => {
     const getData = async () => {
       try {
         const { data } = await axios.get('https://api.thecatapi.com/v1/breeds')
         setBreeds(data)
+        // console.log(data)
+        // console.log('response', breeds)
       } catch (err) {
         console.log(err)
-
       }
     }
     getData()
