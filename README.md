@@ -165,3 +165,6 @@ This final output does not cover all  intentions and plans for the project. As a
 - Building a project with more than one page and linking them to the ‘navBar’ was a great achievement. 
 
 
+#  Contribution to this project
+I welcome any contribution or suggestions to improve on this project.
+
