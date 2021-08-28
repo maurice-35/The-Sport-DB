@@ -8,7 +8,7 @@ Click 👉🏽 🐈
 - [Brief](#brief)
 - [Technologies](#technologies)
 - [Framework](#framework)
-- [Dependencies & Components](#dependencies and components)
+- [Dependencies & Components](#dependencies-and-components)
 - [Approach](#approach)
 - [Wins](#wins)
 - Challenges
