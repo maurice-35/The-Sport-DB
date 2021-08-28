@@ -11,8 +11,8 @@ Click 👉🏽 🐈
 - [Dependencies & Components](#dependencies-&-components)
 - [Approach](#approach)
 - [Wins](#wins)
-- Challenges
-- Future features
+- [Challenges](#challenges)
+- [Future Features](#future-features)
 - Key Learnings/Takeaway
 - Contribution to this Project
 - License & Copyright
