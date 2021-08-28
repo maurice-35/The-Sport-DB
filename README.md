@@ -5,7 +5,7 @@ Click 👉🏽 🐈
 # Table of Contents
 
 - [Overview](#overview)
-- Brief
+- [Brief](#bref)
 - Technologies
 - Dependencies & Components
 - Approach
