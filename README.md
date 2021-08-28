@@ -51,3 +51,19 @@ Your app must:
 ​
 ---
 
+#  Technologies
+
+ JavaScript
+ - Sass 
+ - Bulma
+
+#  Framework
+
+ - React
+ - Node.js
+
+ #  Dependencies & Components
+ - Axios
+ - Yarn
+ - GitHub
+
