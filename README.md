@@ -1,6 +1,6 @@
 # SEI - Project 2 
 # Cats-app
-- [Click](#click)👉🏽 🐈(#https://app.netlify.com/sites/maurice-cats-app-project2)
+- [Click](#click)👉🏽 [<b>🐈](https://app.netlify.com/sites/maurice-cats-app-project2)
 
 # Table of Contents
 
