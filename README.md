@@ -105,3 +105,5 @@ I created the `home page`.
         }
         getData()
       }, [])
+
+In the `navBar page`, I created links to the `sign up and login pages`, as well as the `see all cats` page. 
