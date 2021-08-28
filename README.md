@@ -94,3 +94,15 @@ I created the `home page`.
 
 Using react, I ensured that the data was responding and routes working correctly.
 
+ useEffect(() => {
+    const getData = async () => {
+      try {
+        const { data } = await axios.get('https://api.thecatapi.com/v1/breeds')
+        setBreeds(data)
+      } catch (err) {
+        console.log(err)
+
+      }
+    }
+    getData()
+  }, [])
