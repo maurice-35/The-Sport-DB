@@ -159,3 +159,9 @@ This final output does not cover all  intentions and plans for the project. As a
 - Improving the card, categories, votes, and favourite pages.
 - Adding the sign up and login pages.
 
+#  Key learnings
+
+The ability to access API endpoints and leverage them using Insomnia.
+Building a project with more than one page and linking them to the ‘navBar’ was a great achievement. 
+
+
