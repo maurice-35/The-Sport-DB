@@ -76,9 +76,9 @@ I started by thinking of the kind of app to build. I had little or no idea of wh
 
 ## Day 2:
 
-  # Wireframe
+#  Wireframe
 
-I made a short plan using ‘Figma’ as shown below.
+On the second, I started with the wireframe.
+I made a short plan using Figma.com as shown below.
 
-Home page
 
