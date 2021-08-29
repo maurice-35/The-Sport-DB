@@ -73,7 +73,8 @@ Your app must:
 ## Day 1:
 I started by thinking of the kind of app to build. I had little or no idea of what I would build. After about a day of online searches of different APIs, I finally decided to build a cat-app based on the ‘thecatapi.com’ API.
 
-![insomnia-project2](https://user-images.githubusercontent.com/84001897/131217982-a35452a1-287d-458f-9ff7-4a97c5ecb049.png)
+![insomnia -p2](https://user-images.githubusercontent.com/84001897/131241013-f5fb938e-2cfe-4079-95a0-d798266bd26c.png)
+
 
 ## Day 2:
 
