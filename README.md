@@ -55,18 +55,18 @@ Your app must:
 #  Technologies
 
  - [JavaScript](https://www.javascript.com/)
- - Sass 
- - Bulma
+ - [SASS](https://sass-lang.com/documentation/syntax) 
+ - [Bulma](https://bulma.io/)
 
 #  Framework
 
- - React
- - Node.js
+ - [React](https://reactjs.org/)
+ - [Node.js](https://nodejs.org/en/)
 
  #  Dependencies and Components
- - Axios
- - Yarn
- - GitHub
+ - [Axios](https://axios-http.com/)
+ - [Yarn](https://yarnpkg.com/)
+ - [GitHub](https://github.com/)
 
 #  Approach
 
