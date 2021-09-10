@@ -33,25 +33,22 @@ Your app must:
 * **Include wireframes** - that you designed before building the app.
 * **Be deployed online** and accessible to the public (hosted on your public GitHub, not GA GitHub!).
 ​
----
-​
----
 
 #  Technologies
 
- - [JavaScript](https://www.javascript.com/)
- - [SASS](https://sass-lang.com/documentation/syntax) 
- - [Bulma](https://bulma.io/)
+ - JavaScript
+ - SASS 
+ - Bulma
 
 #  Framework
 
- - [React](https://reactjs.org/)
- - [Node.js](https://nodejs.org/en/)
+ - React
+ - Node.js
 
  #  Dependencies and Components
- - [Axios](https://axios-http.com/)
- - [Yarn](https://yarnpkg.com/)
- - [GitHub](https://github.com/)
+ - Axios
+ - Yarn
+ - GitHub
 
 #  Approach
 
