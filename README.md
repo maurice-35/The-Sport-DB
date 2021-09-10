@@ -22,7 +22,6 @@ This was the first project I built using React and APIs, after studying both dur
 
 #  Brief
 As a solo project, I had 8 days to develop an app using React and fetch data from a  free public API. I had to do the following:
-
 ​
 ### Technical Requirements
 ​
