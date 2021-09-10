@@ -168,7 +168,7 @@ This final output does not cover all  intentions and plans for the project. As a
 
 
 #  Contribution to this project
-I welcome any contribution or suggestions to improve on this project.
+I welcome any contribution or suggestions to improve this project.
 
 #  License and copyright
 This project was built for educational purposes only. No copyright infringement is intended and all content is used under educational license.
