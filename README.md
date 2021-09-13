@@ -48,6 +48,7 @@ I made a short plan using Figma.com as shown below.
 For the rest of the other days, I continued the process. I started by setting up the `App.js page`. I then requested the data from the API and made sure I was receiving this on the console in the developer tool.
 I created the `navBar page` and the cats folder. I moved the content of `App.js` to the `CatModel` file and replaced it by creating route paths for each route. 
 I created the `home page`.
+ 
     useEffect(() => {
         const getData = async () => {
           try {
@@ -61,7 +62,9 @@ I created the `home page`.
         }
         getData()
       }, [])
+ 
 In the `navBar page`, I created links to the `sign up and login pages`, as well as the `see all cats` page. 
+ 
      return (
         <nav className="navbar is-dark">
           <div className="container">
@@ -95,6 +98,7 @@ In the `navBar page`, I created links to the `sign up and login pages`, as well 
           </div>
         </nav>
       )
+ 
 #  Wins
 - As this is the very first project in which I used Axios to make a request from an API, it was a great experience to see those images displayed on the site.    
 - Working solo on this project was an experience on its own as I struggled and finally came out with something to display.
