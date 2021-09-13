@@ -1,9 +1,6 @@
 # SEI - Project 2: Cats-app 
-
 - [Click](#click)👉🏽 [<b>🐈](https://app.netlify.com/sites/maurice-cats-app-project2)
-
 # Table of Contents
-
 - [Overview](#overview)
 - [Brief](#brief)
 - [Technologies](#technologies)
@@ -35,21 +32,16 @@ Your app must:
 ​
 
 #  Technologies
-
  - JavaScript
  - SASS 
  - Bulma
-
 #  Framework
-
  - React
  - Node.js
-
  #  Dependencies and Components
  - Axios
  - Yarn
  - GitHub
-
 #  Approach
 
 ## Day 1:
