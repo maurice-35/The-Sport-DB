@@ -38,23 +38,16 @@ Your app must:
 #  Approach
 ## Day 1:
 I started by thinking of the kind of app to build. I had little or no idea of what I would build. After about a day of online searches of different APIs, I finally decided to build a cat-app based on the ‘thecatapi.com’ API.
-
 ![insomnia -p2](https://user-images.githubusercontent.com/84001897/131241013-f5fb938e-2cfe-4079-95a0-d798266bd26c.png)
-
 ## Day 2:
-
 ### Wireframe
-
 On the second, I started with the wireframe.
 I made a short plan using Figma.com as shown below.
-
 ![project 2](https://user-images.githubusercontent.com/84001897/131218622-f590b6c8-a36c-4c9c-805c-d17a9e16161b.png)
-
 #  Process
 For the rest of the other days, I continued the process. I started by setting up the `App.js page`. I then requested the data from the API and made sure I was receiving this on the console in the developer tool.
 I created the `navBar page` and the cats folder. I moved the content of `App.js` to the `CatModel` file and replaced it by creating route paths for each route. 
 I created the `home page`.
-
     useEffect(() => {
         const getData = async () => {
           try {
@@ -68,7 +61,6 @@ I created the `home page`.
         }
         getData()
       }, [])
-
 In the `navBar page`, I created links to the `sign up and login pages`, as well as the `see all cats` page. 
      return (
         <nav className="navbar is-dark">
